@@ -29,7 +29,7 @@ nav{
 	text-align: left;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
-	background-image: url(../img/huge-logo.jpg);
+	background-image: url(../img/icon/logo.png);
 }
 
 .menu{
@@ -143,3 +143,27 @@ nav.open ul li{
 	font-size: 60px;
 	visibility: visible !important; 
 }
+
+/*Javascript style toggle for menu appear and desappear*/
+nav.header-in{
+	background-color: rgba(217, 40, 130, 0.9);
+}
+
+/*Javascript style toggle for menu appear and desappear style background*/
+.solid #toggle .menu{
+	background: #fff;
+}
+.solid #toggle .menu:after{
+	background-color: #fff;
+}
+.solid #toggle .menu:before{
+	background-color: #fff;
+}
+
+nav.solid #logo .logo{
+	background-image: url(../img/icon/logo-white.png);
+}
+
+.overflow-hidden{
+	overflow:hidden;
+}	
