@@ -61,4 +61,11 @@ nav{
 	top: 8px;
 }
 
+#toggle:hover .menu:before{
+	top: -9px;
+}
+#toggle:hover .menu:after{
+	top: 9px;
+}
+
 
